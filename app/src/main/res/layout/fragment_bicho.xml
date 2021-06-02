@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bege"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".Fragment.BichoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_cao"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/bege"
+            android:src="@drawable/cao"/>
+
+        <ImageButton
+            android:id="@+id/btn_gato"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/bege"
+            android:src="@drawable/gato"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp">
+
+        <ImageButton
+            android:id="@+id/btn_leao"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+           android:background="@color/bege"
+            android:src="@drawable/leao"/>
+
+        <ImageButton
+            android:id="@+id/btn_macaco"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/bege"
+            android:src="@drawable/macaco"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp">
+
+        <ImageButton
+            android:id="@+id/btn_ovelha"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/bege"
+            android:src="@drawable/ovelha"/>
+
+        <ImageButton
+            android:id="@+id/btn_vaca"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/bege"
+            android:src="@drawable/vaca" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="36dp"
+        android:src="@drawable/direitos"/>
+
+</LinearLayout>
